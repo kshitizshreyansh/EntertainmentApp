@@ -1,8 +1,8 @@
-// image size for tmdb
+/*
+configuration file
+*/
 
-export const img_300 = 'https://image.tmdb.org/t/p/w300';
-
-
-export const img_not_available = 'https://www.movienewz.com/img/films/poster-holder.jpg';
-
-export const no_picture = 'https://dummyimage.com/300x450/ff5860/000&text=Photo Not Available'
+export const config = {
+    APP_NAME : "MovieClick",
+    API_KEY : process.env.REACT_APP_API_KEY
+}

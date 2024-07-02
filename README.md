@@ -1,16 +1,22 @@
+# Movie app
+Movie app with reactJS and OMDB API
 
-## Available Scripts
+## Starting movie app
 
-In the project directory, you can run:
+set the API Key
 
-### `npm start`
+```js
+// windows
+>>> SET REACT_APP_API_KEY=YOUR_OMDB_API_KEY
+// linux
+>>> export REACT_APP_API_KEY=YOUR_OMDB_API_KEY
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+>>> npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> You can also replace the API Key in config.js file located in src folder
 
-### `npm test`
+## Demo 
 
-Launches the test runner in the interactive watch mode.
+https://user-images.githubusercontent.com/78949167/169978304-20ed7f8e-1b6d-4242-8743-c9e6cefe09e3.mp4
+
